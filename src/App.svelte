@@ -1,12 +1,10 @@
 <script lang="ts">
   import type { HTMLAttributes } from 'svelte/elements';
-  import {
-    MosaikButton,
-    MosaikIcon,
-    MosaikPulse,
-    MosaikStack,
-    MosaikText,
-  } from '@pixel-brewery/mosaik-elements-svelte';
+  import { MosaikButton } from '@pixel-brewery/mosaik-elements-svelte/components/button';
+  import { MosaikIcon } from '@pixel-brewery/mosaik-elements-svelte/components/icon';
+  import { MosaikPulse } from '@pixel-brewery/mosaik-elements-svelte/components/pulse';
+  import { MosaikStack } from '@pixel-brewery/mosaik-elements-svelte/components/stack';
+  import { MosaikText } from '@pixel-brewery/mosaik-elements-svelte/components/text';
 
   // The published wrapper forwards HTML attributes; its declarations currently omit them.
   // Keep those forwarded attributes checked against Svelte's native HTML contract.
