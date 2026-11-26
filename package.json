@@ -22,7 +22,7 @@
     "@pixel-brewery/mosaik-icons": "0.1.185",
     "@pixel-brewery/mosaik-themes": "0.1.185",
     "reflect-metadata": "0.2.2",
-    "svelte": "5.57.2"
+    "svelte": "5.59.1"
   },
   "devDependencies": {
     "@eslint/js": "10.0.1",
