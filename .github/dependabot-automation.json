@@ -1,0 +1,16 @@
+{
+  "repository": "pixel-brewery/mosaik-starter-svelte",
+  "repositoryId": 1430734396,
+  "workflowFile": "ci.yml",
+  "workflowName": "CI",
+  "requiredJobs": [
+    "verify",
+    "Quality Gate"
+  ],
+  "postMergeWorkflows": [
+    {
+      "file": "ci.yml"
+    }
+  ],
+  "normalizeMosaikLockRoot": true
+}
